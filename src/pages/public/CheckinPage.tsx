@@ -61,7 +61,7 @@ export function CheckinPage() {
         {/* Check-in action */}
         <div className="space-y-4">
           {isSuccess ? (
-            <CheckinSuccess venueName={venue.name} venueSlug={venue.slug} />
+            <CheckinSuccess venueName={venue.name} venueSlug={venue.slug} venueId={venue.id} />
           ) : (
             <>
               <CheckinButton
